@@ -1,6 +1,12 @@
 pragma solidity >=0.5.0;
 
 /// @title The interface for the ERC-165 interface query standard
+/// @custom:coauthor Christian Reitwießner (chris@ethereum.org)
+/// @custom:coauthor Nick Johnson (nick@ethereum.org)
+/// @custom:coauthor Fabian Vogelsteller (fabian@lukso.network)
+/// @custom:coauthor Jordi Baylina (jordi@baylina.cat)
+/// @custom:coauthor Konrad Feldmeier (konrad.feldmeier@brainbot.com)
+/// @custom:coauthor William Entriken (github.com@phor.net)
 /// @custom:coauthor ainmox (https://github.com/ainmox)
 interface IERC165 {
     /// @notice Query if a contract supports an interface
