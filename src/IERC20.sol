@@ -3,7 +3,6 @@ pragma solidity >=0.5.0;
 /// @title The interface for an ERC20 token
 /// @custom:coauthor Fabian Vogelsteller (fabian@ethereum.org)
 /// @custom:coauthor Vitalik Buterin (vitalik.buterin@ethereum.org)
-/// @custom:coauthor ainmox (https://github.com/ainmox)
 /// @custom:see https://eips.ethereum.org/EIPS/eip-20
 interface IERC20 {
     /// @notice Emitted when `owner` approves `spender` to spend `amount` tokens on their behalf

@@ -3,7 +3,6 @@ pragma solidity >=0.5.0;
 /// @title The interface for ERC-173 contract ownership standard
 /// @custom:coauthor Nick Mudge (https://github.com/mudgen)
 /// @custom:coauthor Dan Finlay (dan@danfinlay.com)
-/// @custom:coauthor ainmox (https://github.com/ainmox)
 /// @custom:see https://eips.ethereum.org/EIPS/eip-173
 interface IERC173 {
     /// @notice Emitted when ownership of a contract changes

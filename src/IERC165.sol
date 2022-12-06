@@ -7,7 +7,6 @@ pragma solidity >=0.5.0;
 /// @custom:coauthor Jordi Baylina (jordi@baylina.cat)
 /// @custom:coauthor Konrad Feldmeier (konrad.feldmeier@brainbot.com)
 /// @custom:coauthor William Entriken (github.com@phor.net)
-/// @custom:coauthor ainmox (https://github.com/ainmox)
 /// @custom:see https://eips.ethereum.org/EIPS/eip-165
 interface IERC165 {
     /// @notice Query if a contract supports an interface

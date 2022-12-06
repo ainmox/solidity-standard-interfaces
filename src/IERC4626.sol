@@ -8,7 +8,6 @@ import {IERC20} from "./IERC20.sol";
 /// @custom:coauthor Jet Jadeja (https://github.com/JetJadeja)
 /// @custom:coauthor Alberto Cuesta Cañada (https://github.com/alcueca)
 /// @custom:coauthor Señor Doggo (https://github.com/fubuloubu)
-/// @custom:coauthor ainmox (https://github.com/ainmox)
 /// @custom:see https://eips.ethereum.org/EIPS/eip-4626
 interface IERC4626 is IERC20 {
     /// @notice Emitted when `sender` has exchanged `assets` for `shares` and transferred those `shares` to `owner`
