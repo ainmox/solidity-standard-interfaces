@@ -1,6 +1,8 @@
 pragma solidity >=0.5.0;
 
 /// @title The interface for an ERC20 token
+/// @custom:coauthor Fabian Vogelsteller (fabian@ethereum.org)
+/// @custom:coauthor Vitalik Buterin (vitalik.buterin@ethereum.org)
 /// @custom:coauthor ainmox (ainmox.eth)
 /// @custom:see https://eips.ethereum.org/EIPS/eip-20
 interface IERC20 {
