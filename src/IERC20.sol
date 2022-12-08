@@ -9,7 +9,7 @@ interface IERC20 {
     /// @param owner The address of the owner
     /// @param spender The address of the spender
     /// @param value The number of tokens `owner` approved `spender` to spend
-    event Approve(address indexed owner, address indexed spender, uint256 value);
+    event Approval(address indexed owner, address indexed spender, uint256 value);
 
     /// @notice Emitted when `owner` transfers `amount` tokens to `recipient`
     /// @param owner The address of the owner
