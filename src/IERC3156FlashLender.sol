@@ -1,5 +1,7 @@
 pragma solidity >=0.5.0;
 
+import {IERC3156FlashBorrower} from "./IERC3156FlashBorrower.sol";
+
 /// @title Interface for the ERC-3156 flash loan lender
 /// @custom:coauthor Alberto Cuesta Cañada (https://github.com/albertocuestacanada)
 /// @custom:coauthor Fiona Kobayashi (https://github.com/fifikobayashi)
