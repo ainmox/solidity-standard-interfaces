@@ -61,7 +61,7 @@ interface IERC4626 is IERC20 {
     /// @param assets The amount of assets to deposit
     /// @param receiver The address of the receiver
     /// @return shares The amount of shares minted
-    function deposit(uint256 assets, address receiver) external view returns (uint256 shares);
+    function deposit(uint256 assets, address receiver) external returns (uint256 shares);
 
     /// @notice Maximum amount of shares that can be minted from the Vault for the `receiver`, through a `mint` call
     /// @param receiver The address of the receiver
@@ -78,7 +78,7 @@ interface IERC4626 is IERC20 {
     /// @param shares The amount of shares to mint
     /// @param receiver The address of the receiver
     /// @return assets The amount of assets exchanged
-    function mint(uint256 shares, address receiver) external view returns (uint256 assets);
+    function mint(uint256 shares, address receiver) external returns (uint256 assets);
 
     /// @notice Maximum amount of the underlying asset that can be withdrawn from the `owner` balance in the Vault,
     ///         through a `withdraw` call
@@ -97,7 +97,7 @@ interface IERC4626 is IERC20 {
     /// @param receiver The address of the receiver
     /// @param owner The address of the owner
     /// @return shares The amount of shares burned
-    function withdraw(uint256 assets, address receiver, address owner) external view returns (uint256 shares);
+    function withdraw(uint256 assets, address receiver, address owner) external returns (uint256 shares);
 
     /// @notice Maximum amount of Vault shares that can be burned from the `owner` balance in the Vault,
     ///         through a `redeem` call
@@ -116,5 +116,5 @@ interface IERC4626 is IERC20 {
     /// @param receiver The address of the receiver
     /// @param owner The address of the owner
     /// @return assets The amount of assets received
-    function redeem(uint256 shares, address receiver, address owner) external view returns (uint256 assets);
+    function redeem(uint256 shares, address receiver, address owner) external returns (uint256 assets);
 }
